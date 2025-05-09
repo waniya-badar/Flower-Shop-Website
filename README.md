@@ -1,8 +1,8 @@
 # Flower-Shop-Website
 Flower Shop Website - A full-stack web application for online flower shopping, built with PHP, MySQL, HTML/CSS, and JavaScript. Designed for both customers and administrators with secure authentication, product management, and order processing.
 
-#### Features
-##### User-Facing
+### Features
+#### User-Facing
 - **User Authentication**: Registration, login, and profile management
 - **Product Catalog**: Browse/search flowers with filters
 - **Shopping Cart**: Add/remove items, quantity adjustment
@@ -10,23 +10,23 @@ Flower Shop Website - A full-stack web application for online flower shopping, b
 - **Order Management**: Checkout and order history
 - **Contact Form**: Message submission to admin
 
-##### Admin-Facing
+#### Admin-Facing
 - **Product CRUD**: Add/edit/delete products
 - **Order Processing**: Update order statuses
 - **User Management**: View registered users
 - **Message Dashboard**: Handle customer inquiries
 
-#### 🏗 System Architecture
-##### 3-Tier Structure
+### 🏗 System Architecture
+#### 3-Tier Structure
 | Layer              | Technologies               |
 |--------------------|----------------------------|
 | **Presentation**   | HTML5, CSS3, JavaScript    |
 | **Business Logic** | PHP (MVC Pattern)          |
 | **Data Access**    | MySQL (XAMPP)              |
 
-#### Database Design
+### Database Design
 
-##### Key Tables
+#### Key Tables
 | Table       | Description                          |
 |-------------|--------------------------------------|
 | `users`     | Customer/admin accounts              |
@@ -36,7 +36,7 @@ Flower Shop Website - A full-stack web application for online flower shopping, b
 | `wishlist`  | User-saved favorites                 |
 | `messages`  | Customer contact submissions         |
 
-##### Risk Management
+#### Risk Management
 | Risk ID | Description               | Mitigation Strategy                          |
 |---------|---------------------------|----------------------------------------------|
 | R001    | Database connection fails | Implement retry logic + fallback connections |
